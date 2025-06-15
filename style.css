@@ -130,3 +130,9 @@ p {
 .content::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
+
+@media (max-width: 500px) {
+  .content {
+    max-width: 80%;
+  }
+}
